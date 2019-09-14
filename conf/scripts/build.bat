@@ -8,4 +8,4 @@ echo "solutionPath: %solutionPath%"
 
 %pathMSBuild% %solutionPath% /t:Clean /v:q /nologo
 %pathNuget% restore %solutionPath%
-%pathMSBuild% %solutionPath% /t:Build /p:Configuration=Debug /v:q /nologo
+%pathMSBuild% %solutionPath% /t:Build /p:Configuration=Debug 
